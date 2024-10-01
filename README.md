@@ -37,9 +37,7 @@ We employed a basic formula for Customer Lifetime Value using the following step
 - Purchase Frequency (PF): Total orders divided by the number of customers.
 - Churn Rate: 1 - Repeat Rate (percentage of returning customers).
 - **CLV Formula:**
-$$
-CLV = \left( \frac{AOV \times PF}{Churn\ Rate} \right) \times Profit\ Margin
-$$
+$$CLV = \left( \frac{AOV \times PF}{Churn\ Rate} \right) \times Profit\ Margin$$
 ​
 ### 2. Probabilistic Models (BG/NBD and Gamma-Gamma)
 - BG/NBD Model: Predicts customer purchase behavior by estimating the probability of customer churn and future purchase frequency using historical data.
